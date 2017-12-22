@@ -1,0 +1,123 @@
+
+		body{
+			background-color: rgba(255, 30, 0, 0.637);
+			font-family:"微软雅黑";
+		}
+
+		a:focus {
+			outline: none;
+		}
+
+		.panel-body h4{
+			text-indent:2em;
+		}
+
+
+		.panel-group .panel+.panel{
+			margin:0;
+		}
+
+		.panel-group .panel{
+			border-radius: 0px;
+		}
+
+		.main{
+			margin-top:10px;
+		}
+
+		.main h2{
+			color:#fff;
+			padding:0px 10px 20px 10px;
+			border-bottom:3px solid #fff;
+		}
+
+		.title{
+			color:rgba(255, 81, 0, 0.788);
+			font-size:20px;
+			font-weight:600;
+			padding:10px 20px;
+			margin:0;
+			background-color:#f5f5f5;
+			border-top-right-radius: 10px;
+			border-top-left-radius: 10px;
+		}
+
+		.main_body{
+			background-color: #fff;
+			border-radius:10px;
+		}
+
+		.panel-default>.panel-heading{
+			background-color: #fff;
+			padding:5px 0;
+		}
+
+		.panel.panel-default{
+			border-left:none;
+			border-right:none;
+			border-top:none;
+		}
+
+		.panel-body{
+			padding:5px 0;
+		}
+
+		.panel-body h4{
+			font-size:14px;
+			line-height:1.5;
+			margin:5px 0;
+			text-align: justify;
+			padding:0px 10px;
+
+		}
+
+		.panel-title a{
+			font-weight:bold;
+			font-size:14px;
+			text-decoration: none;
+			
+		}
+
+		.panel-title{
+			padding:10px;
+		}
+
+		
+
+		.panel-group{
+			margin:0;
+			padding:0px 10px 10px 10px;
+		}
+
+		
+
+		.panel-body h4 span{
+			border-radius: 10px;
+			color:#fff;
+			text-align: center;
+			display: inline-block;
+			width:80px;
+		}
+
+        
+
+        strong{
+            color:blue;
+        }
+
+		.panel-body img{
+			display: block;
+            width:70%;
+            margin:10px auto;
+        }
+
+		.ora{
+			color:orange;
+		}
+
+		h3{
+			color:orangered;
+			padding:0px 10px;
+		}
+
+		

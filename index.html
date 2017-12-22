@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title>折叠插件</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<style>
+		.caret.pre{
+			float:right;
+			position: relative;
+			top:9px;
+			right:10px;
+		}
+	</style>
+	
+</head>
+<body style="margin: 20px;">
+
+<div class="main">
+	<h2><em>常见问题疑难解答</em></h2>
+	<div class="main_body">
+		<h4 class="title">新手教学</h4>
+		<div class="panel-group" id="accordion">
+		
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" role="button" href="#collapseThree" data-toggle="collapse" data-parent="#accordion">
+						<a>1、检测僵尸粉流程<span class="caret pre"></span></a>
+					</h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse">
+					<div class="panel-body">
+						<h4>第一步，进入检测僵尸粉界面。</h4>
+						<img src="http://tool.nullku.top/3-1.png" alt="">
+						<h4>第二步，开启工具箱辅助服务。</h4>
+						<img src="http://tool.nullku.top/3-2.png" alt="">
+						<h4>第三步，点击微商工具箱辅助服务。</h4>
+						<img src="http://tool.nullku.top/3-3.png" alt="">
+						<h4>第四步，将辅助服务打开，点击开启。</h4>
+						<img src="http://tool.nullku.top/3-4.png" alt="">
+						<h4>第五步，将辅助服务打开，点击开启，确定开启。</h4>
+						<img src="http://tool.nullku.top/3-5.png" alt="">
+						<h4>第六步，开启成功后，会自动返回到微商工具箱（如果没有自动返回，请重启手机重新操作）。</h4>
+						<img src="http://tool.nullku.top/3-6.png" alt="">
+						<h4>第七步，点击启动微信开始检测。</h4>
+						<img src="http://tool.nullku.top/3-7.png" alt="">
+						<h4>第八步，点击开始，加载好友数量。</h4>
+						<img src="http://tool.nullku.top/3-8.png" alt="">
+						<h4>加载完数量之后，会自动开始检测，期间不要玩手机，如果中间停止了，下次可以继续接着上次检测的位置继续检测。</h4>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title" role="button" href="#collapseFour" data-toggle="collapse" data-parent="#accordion">
+						<a>2、检测死粉自动停止，解决方案<span class="caret pre"></span></a>
+					</h4>
+				</div>
+				<div id="collapseFour" class="panel-collapse collapse">
+					<div class="panel-body">
+						<h4><strong>清理死粉前，先按以下教学设置下，一次最多可清理5000好友。</strong></h4>
+						<h4>设置流程图：</h4>
+						<h4><strong>第一步，启动微商工具箱。</strong></h4>
+						<img src="http://tool.nullku.top/4-1.png" alt="">
+						<h4><strong>第二步，启动微商工具箱。</strong></h4>
+						<img src="http://tool.nullku.top/4-2.png" alt="">
+						<h4><strong>第三步，将微商工具箱上锁，如图。</strong></h4>
+						<img src="http://tool.nullku.top/4-3.png" alt="">
+						<h4><strong>锁定之后，使用微商工具箱检测死粉即可删除死粉。</strong></h4>
+						<h4><strong>注意事项，删除死粉期间，不可以玩手机，不可以黑屏，手机屏幕不会自动熄灭，请放心使用。</strong></h4>
+						<h4 class="ora"><strong>锁定成功后，即使清理5000好友也不会自动停止。</strong></h4>
+						<img src="http://tool.nullku.top/4-4.png" alt="">
+
+						<h4>VIVOY67L等系列，将微商工具箱加入白名单即可。</h4>
+						<h4>操作步骤：</h4>
+						<h4><strong>第一步，启动微商工具箱</strong></h4>
+						<img src="http://tool.nullku.top/4-5.png" alt="">
+						<h4><strong>第二步，进入清理进程的界面。</strong></h4>
+						<img src="http://tool.nullku.top/4-6.png" alt="">
+						<h4><strong>第三步，长按微商工具箱，加入白名单即可。</strong></h4>
+						<img src="http://tool.nullku.top/4-7.png" alt="">
+						<h4><strong>加入白名单后，再使用检测僵尸粉的功能即可。</strong></h4>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+
+</div>
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+	$('#collapseOne, #collapseTow, #collapseThree, #collapseFour,#collapseFive, #collapseSix, #collapseSeven, #collapseEight').collapse({
+		parent : '#accordion',
+		toggle : false,
+	});
+
+	$('button').on('click', function () {
+		$('#content').collapse('toggle');
+		$('#content').collapse({
+			toggle : true,
+		});
+		$('#content').collapse('show');
+	});
+
+
+	
+
+</script>
+</body>
+</html>
